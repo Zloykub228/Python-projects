@@ -1,4 +1,4 @@
-'''
+
 def summary():
     x = int(input('x= '))
     y = int(input('y= '))
@@ -25,3 +25,4 @@ print('student_3-', student_3.height)
 print('first_student-', first_student.amount_of_students)
 print('second_student-', second_student.amount_of_students)
 print('student_3-', student_3.amount_of_students)
+'''
