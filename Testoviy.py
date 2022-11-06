@@ -14,31 +14,6 @@ class Day:
         self.day = day
 day = Day()
 student = Student()
-print('Your student parameters:')
-time.sleep(1)
-print('His height-', student.height)
-time.sleep(1)
-print('His age-', student.age)
-time.sleep(1)
-print('His intelligence-', student.intelligence)
-time.sleep(1)
-print('His money-', student.money)
-time.sleep(1)
-print('Starting the game...')
-time.sleep(1)
-print('------------------------------------')
-time.sleep(1)
-print('STUDENT LIFE')
-time.sleep(1)
-print('Rules:')
-time.sleep(1)
-print('Every day you will lose 2 value of intelligence and random value of money because of food etc. 1 day in university will give you 3 value of it, ')
-time.sleep(1)
-print('you will earn different value of money because every day you have not stability spots of work and it is unreal for you to have stability earning of money')
-time.sleep(1)
-print('------------------------------------')
-time.sleep(1)
-
 for i in range(365):
     print('Day', day.day, ':')
     print('Your intelligence-', student.intelligence)
@@ -64,8 +39,3 @@ for i in range(365):
     student.money = student.money - x
     day.day = day.day + 1
     print('------------------------------------')
-
-print('You did student challenge ')
-
-
-
