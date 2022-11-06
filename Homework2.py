@@ -1,4 +1,6 @@
 import random
+import time
+
 x=0
 y=0
 class Student:
@@ -13,17 +15,29 @@ class Day:
 day = Day()
 student = Student()
 print('Your student parameters:')
+time.sleep(1)
 print('His height-', student.height)
+time.sleep(1)
 print('His age-', student.age)
+time.sleep(1)
 print('His intelligence-', student.intelligence)
+time.sleep(1)
 print('His money-', student.money)
+time.sleep(1)
 print('Starting the game...')
+time.sleep(1)
 print('------------------------------------')
+time.sleep(1)
 print('STUDENT LIFE')
+time.sleep(1)
 print('Rules:')
+time.sleep(1)
 print('Every day you will lose 2 value of intelligence and random value of money because of food etc. 1 day in university will give you 3 value of it, ')
+time.sleep(1)
 print('you will earn different value of money because every day you have not stability spots of work and it is unreal for you to have stability earning of money')
+time.sleep(1)
 print('------------------------------------')
+time.sleep(1)
 print('Day', day.day, ':')
 print('Your intelligence-', student.intelligence)
 print('Your money-', student.money)
