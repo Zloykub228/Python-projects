@@ -31,7 +31,7 @@ for (x, y, w, h) in dafWajah:
 for (x, y, w, h) in dafWajah1:
     cv2.rectangle(kerangka, (x, y), (x + w, y + h), (255, 0, 255), 4)
     for (x, y, w, h) in dafWajah2:
-        cv2.rectangle(kerangka, (x, y), (x + w, y + h), (255, 0, 255), 3)
+        cv2.rectangle(kerangka, (x, y), (x + w, y + h), (0, 0, 100), 3)
 
         # print("Jumlah Wajah terdeksi: ", len(dafWajah))
 teks = "Jumlah Wajah Terdeteksi = " + str(len(dafWajah))
