@@ -41,7 +41,6 @@ cv2.putText(kerangka, teks, (0, 30), font, 1, (255, 0, 0), 1)
 cv2.imshow("Video", kerangka)
 if cv2.waitKey(1) & 0xFF == ord('q'):
     tombolQditekan = True
-    break
 
 videoCam.release()
 cv2.destroyAllWindows()
