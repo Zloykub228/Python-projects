@@ -205,5 +205,20 @@ while True:
         prizepie += pie * pieprize
         prize = prizecheese + prizebig + prizebigmac + prizefrench + prizenuggets + prizecoke + prizeice + prizepie
         print('Your order costs: ', prize , '$')
-
+        print('Write info about your card please:')
+        numbers=int(input('Numbers of card: '))
+        cvc = int(input('Cvc of card: '))
+        date = int(input('Date until which it serves: '))
+        name = int(input('Your name and Surname: '))
+        print('Thank you! Write your address:')
+        address=int(input('Your address: '))
+        print('is it all correct?')
+        print(numbers)
+        print(cvc)
+        print(date)
+        print(name)
+        print(address)
+        correct=int(input('Is it correct? (1-"Yes") or (2-"No"): '))
+        if correct==1:
+            print('Thank you for your order!')
 
